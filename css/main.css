@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.post_preview {
+  position: relative;
+  max-height: 300px;
+  line-height: 20px; /* Height / no. of lines to display */
+}
+
+.centerContent {
+  text-align: center;
+}
+
+.d_inline_block {
+  display: inline-block;
+}
+
+a {
+  color: white !important;
+}
+
+.disabled {
+  color: gray !important;
+}
+
+.font_size1_3 {
+  font-size: 1.3em;
+}
+
+a.initial {
+  color: blue !important;
+}
