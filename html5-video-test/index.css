@@ -1,0 +1,87 @@
+.flex.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.align-center{
+    align-items: center;
+}
+
+#time-label{
+    align-self: center;
+    margin-left:5px
+}
+
+#fs-btn{
+    margin-left: auto;
+}
+
+#seek-bar {
+    width: 96%;
+    height: 5px;
+    margin: 0px 2%;
+    background: gray;
+}
+
+#seek-bar > .progress{
+    background: red;
+    height: 5px;
+    width: 0px;
+    z-index: 2;
+    position: relative;
+}
+
+#seek-bar > .buffered{
+    background: white;
+    height: 5px;
+    width: 0px;
+    z-index: 1;
+    margin-top:-5px;
+    position: relative;
+}
+
+#volume-bar {
+    width: 100px;
+    background: gray;
+    height: 5px;
+}
+
+#volume-bar > .progress {
+    height: 5px;
+    width: 0px;
+    background: white;
+    z-index: 1;
+}
+
+#video-player-wrapper{
+    position: relative;
+    display: inline-block;
+    width: 640px;
+}
+
+#video-player{
+    width: 100%;
+}
+
+.video-controls {
+    color: white;
+}
+
+#bottom-controls {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.media-icon {
+    padding: 10px;
+}
+
+#seek-bar,.media-icon,#volume-bar:hover{
+    cursor: pointer;
+}
